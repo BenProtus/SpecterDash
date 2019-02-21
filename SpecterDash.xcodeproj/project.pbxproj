@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9002C467221E369E009BE30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C466221E369E009BE30B /* AppDelegate.swift */; };
+		9002C469221E369E009BE30B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C468221E369E009BE30B /* RootViewController.swift */; };
+		9002C46B221E369E009BE30B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C46A221E369E009BE30B /* DataViewController.swift */; };
+		9002C46D221E369E009BE30B /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C46C221E369E009BE30B /* ModelController.swift */; };
+		9002C470221E369E009BE30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9002C46E221E369E009BE30B /* Main.storyboard */; };
+		9002C472221E36A0009BE30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9002C471221E36A0009BE30B /* Assets.xcassets */; };
+		9002C475221E36A0009BE30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9002C473221E36A0009BE30B /* LaunchScreen.storyboard */; };
+		9002C480221E36A0009BE30B /* SpecterDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C47F221E36A0009BE30B /* SpecterDashTests.swift */; };
+		9002C48B221E36A0009BE30B /* SpecterDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C48A221E36A0009BE30B /* SpecterDashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9002C47C221E36A0009BE30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9002C45B221E369E009BE30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9002C462221E369E009BE30B;
+			remoteInfo = SpecterDash;
+		};
+		9002C487221E36A0009BE30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9002C45B221E369E009BE30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9002C462221E369E009BE30B;
+			remoteInfo = SpecterDash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9002C463221E369E009BE30B /* SpecterDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecterDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9002C466221E369E009BE30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9002C468221E369E009BE30B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9002C46A221E369E009BE30B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		9002C46C221E369E009BE30B /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		9002C46F221E369E009BE30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9002C471221E36A0009BE30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9002C474221E36A0009BE30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9002C476221E36A0009BE30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9002C47B221E36A0009BE30B /* SpecterDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpecterDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9002C47F221E36A0009BE30B /* SpecterDashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecterDashTests.swift; sourceTree = "<group>"; };
+		9002C481221E36A0009BE30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9002C486221E36A0009BE30B /* SpecterDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpecterDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9002C48A221E36A0009BE30B /* SpecterDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecterDashUITests.swift; sourceTree = "<group>"; };
+		9002C48C221E36A0009BE30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9002C460221E369E009BE30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C478221E36A0009BE30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C483221E36A0009BE30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9002C45A221E369E009BE30B = {
+			isa = PBXGroup;
+			children = (
+				9002C465221E369E009BE30B /* SpecterDash */,
+				9002C47E221E36A0009BE30B /* SpecterDashTests */,
+				9002C489221E36A0009BE30B /* SpecterDashUITests */,
+				9002C464221E369E009BE30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9002C464221E369E009BE30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9002C463221E369E009BE30B /* SpecterDash.app */,
+				9002C47B221E36A0009BE30B /* SpecterDashTests.xctest */,
+				9002C486221E36A0009BE30B /* SpecterDashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9002C465221E369E009BE30B /* SpecterDash */ = {
+			isa = PBXGroup;
+			children = (
+				9002C466221E369E009BE30B /* AppDelegate.swift */,
+				9002C468221E369E009BE30B /* RootViewController.swift */,
+				9002C46A221E369E009BE30B /* DataViewController.swift */,
+				9002C46C221E369E009BE30B /* ModelController.swift */,
+				9002C46E221E369E009BE30B /* Main.storyboard */,
+				9002C471221E36A0009BE30B /* Assets.xcassets */,
+				9002C473221E36A0009BE30B /* LaunchScreen.storyboard */,
+				9002C476221E36A0009BE30B /* Info.plist */,
+			);
+			path = SpecterDash;
+			sourceTree = "<group>";
+		};
+		9002C47E221E36A0009BE30B /* SpecterDashTests */ = {
+			isa = PBXGroup;
+			children = (
+				9002C47F221E36A0009BE30B /* SpecterDashTests.swift */,
+				9002C481221E36A0009BE30B /* Info.plist */,
+			);
+			path = SpecterDashTests;
+			sourceTree = "<group>";
+		};
+		9002C489221E36A0009BE30B /* SpecterDashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9002C48A221E36A0009BE30B /* SpecterDashUITests.swift */,
+				9002C48C221E36A0009BE30B /* Info.plist */,
+			);
+			path = SpecterDashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9002C462221E369E009BE30B /* SpecterDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9002C48F221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDash" */;
+			buildPhases = (
+				9002C45F221E369E009BE30B /* Sources */,
+				9002C460221E369E009BE30B /* Frameworks */,
+				9002C461221E369E009BE30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpecterDash;
+			productName = SpecterDash;
+			productReference = 9002C463221E369E009BE30B /* SpecterDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9002C47A221E36A0009BE30B /* SpecterDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9002C492221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDashTests" */;
+			buildPhases = (
+				9002C477221E36A0009BE30B /* Sources */,
+				9002C478221E36A0009BE30B /* Frameworks */,
+				9002C479221E36A0009BE30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9002C47D221E36A0009BE30B /* PBXTargetDependency */,
+			);
+			name = SpecterDashTests;
+			productName = SpecterDashTests;
+			productReference = 9002C47B221E36A0009BE30B /* SpecterDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9002C485221E36A0009BE30B /* SpecterDashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9002C495221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDashUITests" */;
+			buildPhases = (
+				9002C482221E36A0009BE30B /* Sources */,
+				9002C483221E36A0009BE30B /* Frameworks */,
+				9002C484221E36A0009BE30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9002C488221E36A0009BE30B /* PBXTargetDependency */,
+			);
+			name = SpecterDashUITests;
+			productName = SpecterDashUITests;
+			productReference = 9002C486221E36A0009BE30B /* SpecterDashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9002C45B221E369E009BE30B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BenProtus;
+				TargetAttributes = {
+					9002C462221E369E009BE30B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9002C47A221E36A0009BE30B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9002C462221E369E009BE30B;
+					};
+					9002C485221E36A0009BE30B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9002C462221E369E009BE30B;
+					};
+				};
+			};
+			buildConfigurationList = 9002C45E221E369E009BE30B /* Build configuration list for PBXProject "SpecterDash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9002C45A221E369E009BE30B;
+			productRefGroup = 9002C464221E369E009BE30B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9002C462221E369E009BE30B /* SpecterDash */,
+				9002C47A221E36A0009BE30B /* SpecterDashTests */,
+				9002C485221E36A0009BE30B /* SpecterDashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9002C461221E369E009BE30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9002C475221E36A0009BE30B /* LaunchScreen.storyboard in Resources */,
+				9002C472221E36A0009BE30B /* Assets.xcassets in Resources */,
+				9002C470221E369E009BE30B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C479221E36A0009BE30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C484221E36A0009BE30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9002C45F221E369E009BE30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9002C469221E369E009BE30B /* RootViewController.swift in Sources */,
+				9002C46D221E369E009BE30B /* ModelController.swift in Sources */,
+				9002C46B221E369E009BE30B /* DataViewController.swift in Sources */,
+				9002C467221E369E009BE30B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C477221E36A0009BE30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9002C480221E36A0009BE30B /* SpecterDashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9002C482221E36A0009BE30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9002C48B221E36A0009BE30B /* SpecterDashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9002C47D221E36A0009BE30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9002C462221E369E009BE30B /* SpecterDash */;
+			targetProxy = 9002C47C221E36A0009BE30B /* PBXContainerItemProxy */;
+		};
+		9002C488221E36A0009BE30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9002C462221E369E009BE30B /* SpecterDash */;
+			targetProxy = 9002C487221E36A0009BE30B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9002C46E221E369E009BE30B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9002C46F221E369E009BE30B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9002C473221E36A0009BE30B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9002C474221E36A0009BE30B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9002C48D221E36A0009BE30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9002C48E221E36A0009BE30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9002C490221E36A0009BE30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9002C491221E36A0009BE30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9002C493221E36A0009BE30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpecterDash.app/SpecterDash";
+			};
+			name = Debug;
+		};
+		9002C494221E36A0009BE30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpecterDash.app/SpecterDash";
+			};
+			name = Release;
+		};
+		9002C496221E36A0009BE30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpecterDash;
+			};
+			name = Debug;
+		};
+		9002C497221E36A0009BE30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpecterDashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpecterDash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9002C45E221E369E009BE30B /* Build configuration list for PBXProject "SpecterDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9002C48D221E36A0009BE30B /* Debug */,
+				9002C48E221E36A0009BE30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9002C48F221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9002C490221E36A0009BE30B /* Debug */,
+				9002C491221E36A0009BE30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9002C492221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9002C493221E36A0009BE30B /* Debug */,
+				9002C494221E36A0009BE30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9002C495221E36A0009BE30B /* Build configuration list for PBXNativeTarget "SpecterDashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9002C496221E36A0009BE30B /* Debug */,
+				9002C497221E36A0009BE30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9002C45B221E369E009BE30B /* Project object */;
+}
