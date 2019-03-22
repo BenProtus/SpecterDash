@@ -2,7 +2,7 @@
 //  SpecterDashTests.swift
 //  SpecterDashTests
 //
-//  Created by Benjamin Smith on 2/20/19.
+//  Created by Benjamin Protus on 2/20/19.
 //  Copyright © 2019 BenProtus. All rights reserved.
 //
 

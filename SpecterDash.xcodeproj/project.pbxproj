@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9002C467221E369E009BE30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C466221E369E009BE30B /* AppDelegate.swift */; };
-		9002C469221E369E009BE30B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C468221E369E009BE30B /* RootViewController.swift */; };
-		9002C46B221E369E009BE30B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C46A221E369E009BE30B /* DataViewController.swift */; };
-		9002C46D221E369E009BE30B /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C46C221E369E009BE30B /* ModelController.swift */; };
 		9002C470221E369E009BE30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9002C46E221E369E009BE30B /* Main.storyboard */; };
 		9002C472221E36A0009BE30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9002C471221E36A0009BE30B /* Assets.xcassets */; };
 		9002C475221E36A0009BE30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9002C473221E36A0009BE30B /* LaunchScreen.storyboard */; };
 		9002C480221E36A0009BE30B /* SpecterDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C47F221E36A0009BE30B /* SpecterDashTests.swift */; };
 		9002C48B221E36A0009BE30B /* SpecterDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002C48A221E36A0009BE30B /* SpecterDashUITests.swift */; };
+		9002C49A221E3726009BE30B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9002C499221E3726009BE30B /* CoreBluetooth.framework */; };
+		900AC55922431C2B00F92AD0 /* InputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55822431C2B00F92AD0 /* InputsViewController.swift */; };
+		900AC55B22431C3F00F92AD0 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55A22431C3F00F92AD0 /* SocialViewController.swift */; };
+		900AC55D22431C5200F92AD0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55C22431C5200F92AD0 /* SettingsViewController.swift */; };
+		907BC538224313A6003EB9C9 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907BC537224313A6003EB9C9 /* DashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,6 @@
 /* Begin PBXFileReference section */
 		9002C463221E369E009BE30B /* SpecterDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecterDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9002C466221E369E009BE30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9002C468221E369E009BE30B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		9002C46A221E369E009BE30B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		9002C46C221E369E009BE30B /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		9002C46F221E369E009BE30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9002C471221E36A0009BE30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9002C474221E36A0009BE30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,11 @@
 		9002C486221E36A0009BE30B /* SpecterDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpecterDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9002C48A221E36A0009BE30B /* SpecterDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecterDashUITests.swift; sourceTree = "<group>"; };
 		9002C48C221E36A0009BE30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9002C499221E3726009BE30B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		900AC55822431C2B00F92AD0 /* InputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsViewController.swift; sourceTree = "<group>"; };
+		900AC55A22431C3F00F92AD0 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		900AC55C22431C5200F92AD0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		907BC537224313A6003EB9C9 /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9002C49A221E3726009BE30B /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 				9002C47E221E36A0009BE30B /* SpecterDashTests */,
 				9002C489221E36A0009BE30B /* SpecterDashUITests */,
 				9002C464221E369E009BE30B /* Products */,
+				9002C498221E3726009BE30B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				9002C466221E369E009BE30B /* AppDelegate.swift */,
-				9002C468221E369E009BE30B /* RootViewController.swift */,
-				9002C46A221E369E009BE30B /* DataViewController.swift */,
-				9002C46C221E369E009BE30B /* ModelController.swift */,
 				9002C46E221E369E009BE30B /* Main.storyboard */,
+				907BC537224313A6003EB9C9 /* DashViewController.swift */,
+				900AC55822431C2B00F92AD0 /* InputsViewController.swift */,
+				900AC55A22431C3F00F92AD0 /* SocialViewController.swift */,
+				900AC55C22431C5200F92AD0 /* SettingsViewController.swift */,
 				9002C471221E36A0009BE30B /* Assets.xcassets */,
 				9002C473221E36A0009BE30B /* LaunchScreen.storyboard */,
 				9002C476221E36A0009BE30B /* Info.plist */,
@@ -129,6 +136,14 @@
 				9002C48C221E36A0009BE30B /* Info.plist */,
 			);
 			path = SpecterDashUITests;
+			sourceTree = "<group>";
+		};
+		9002C498221E3726009BE30B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9002C499221E3726009BE30B /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9002C469221E369E009BE30B /* RootViewController.swift in Sources */,
-				9002C46D221E369E009BE30B /* ModelController.swift in Sources */,
-				9002C46B221E369E009BE30B /* DataViewController.swift in Sources */,
+				900AC55922431C2B00F92AD0 /* InputsViewController.swift in Sources */,
+				907BC538224313A6003EB9C9 /* DashViewController.swift in Sources */,
 				9002C467221E369E009BE30B /* AppDelegate.swift in Sources */,
+				900AC55D22431C5200F92AD0 /* SettingsViewController.swift in Sources */,
+				900AC55B22431C3F00F92AD0 /* SocialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFT6R3BSKS;
 				INFOPLIST_FILE = SpecterDash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFT6R3BSKS;
 				INFOPLIST_FILE = SpecterDash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
