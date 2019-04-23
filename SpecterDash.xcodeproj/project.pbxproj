@@ -17,6 +17,15 @@
 		900AC55922431C2B00F92AD0 /* InputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55822431C2B00F92AD0 /* InputsViewController.swift */; };
 		900AC55B22431C3F00F92AD0 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55A22431C3F00F92AD0 /* SocialViewController.swift */; };
 		900AC55D22431C5200F92AD0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900AC55C22431C5200F92AD0 /* SettingsViewController.swift */; };
+		901502F6226E70010043147E /* Input-White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901502EA226E70000043147E /* Input-White@3x.png */; };
+		901502FB226E70010043147E /* Setting-White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901502EF226E70000043147E /* Setting-White@3x.png */; };
+		901502FF226E70010043147E /* Social-White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901502F3226E70010043147E /* Social-White@3x.png */; };
+		90150300226E70010043147E /* Dash-White@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901502F4226E70010043147E /* Dash-White@3x.png */; };
+		90150303226E74AB0043147E /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90150302226E74AB0043147E /* PeripheralTableViewCell.swift */; };
+		90150305226E74BD0043147E /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90150304226E74BD0043147E /* UUIDKey.swift */; };
+		9015030B226EA75A0043147E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9015030A226EA7590043147E /* arrow.png */; };
+		9015030D226EB03D0043147E /* SpecterDashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9015030C226EB03D0043147E /* SpecterDashLogo.png */; };
+		901A3BCE225C160A00D56BD2 /* BLECentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A3BCD225C160A00D56BD2 /* BLECentralViewController.swift */; };
 		907BC538224313A6003EB9C9 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907BC537224313A6003EB9C9 /* DashViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +63,15 @@
 		900AC55822431C2B00F92AD0 /* InputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsViewController.swift; sourceTree = "<group>"; };
 		900AC55A22431C3F00F92AD0 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		900AC55C22431C5200F92AD0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		901502EA226E70000043147E /* Input-White@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Input-White@3x.png"; path = "../../../Documents/SpecterDash/icons3x/Input-White@3x.png"; sourceTree = "<group>"; };
+		901502EF226E70000043147E /* Setting-White@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Setting-White@3x.png"; path = "../../../Documents/SpecterDash/icons3x/Setting-White@3x.png"; sourceTree = "<group>"; };
+		901502F3226E70010043147E /* Social-White@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Social-White@3x.png"; path = "../../../Documents/SpecterDash/icons3x/Social-White@3x.png"; sourceTree = "<group>"; };
+		901502F4226E70010043147E /* Dash-White@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dash-White@3x.png"; path = "../../../Documents/SpecterDash/icons3x/Dash-White@3x.png"; sourceTree = "<group>"; };
+		90150302226E74AB0043147E /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeripheralTableViewCell.swift; path = "../../../Downloads/Basic-Chat-master/Basic Chat/PeripheralTableViewCell.swift"; sourceTree = "<group>"; };
+		90150304226E74BD0043147E /* UUIDKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UUIDKey.swift; path = "../../../Downloads/Basic-Chat-master/Basic Chat/UUIDKey.swift"; sourceTree = "<group>"; };
+		9015030A226EA7590043147E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../Documents/SpecterDash/arrow.png; sourceTree = "<group>"; };
+		9015030C226EB03D0043147E /* SpecterDashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpecterDashLogo.png; path = ../../SpecterDashLogo.png; sourceTree = "<group>"; };
+		901A3BCD225C160A00D56BD2 /* BLECentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECentralViewController.swift; sourceTree = "<group>"; };
 		907BC537224313A6003EB9C9 /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +126,20 @@
 			isa = PBXGroup;
 			children = (
 				9002C466221E369E009BE30B /* AppDelegate.swift */,
-				9002C46E221E369E009BE30B /* Main.storyboard */,
 				907BC537224313A6003EB9C9 /* DashViewController.swift */,
 				900AC55822431C2B00F92AD0 /* InputsViewController.swift */,
 				900AC55A22431C3F00F92AD0 /* SocialViewController.swift */,
 				900AC55C22431C5200F92AD0 /* SettingsViewController.swift */,
+				9002C46E221E369E009BE30B /* Main.storyboard */,
+				901502F4226E70010043147E /* Dash-White@3x.png */,
+				901502EA226E70000043147E /* Input-White@3x.png */,
+				901502EF226E70000043147E /* Setting-White@3x.png */,
+				901502F3226E70010043147E /* Social-White@3x.png */,
+				9015030A226EA7590043147E /* arrow.png */,
+				9015030C226EB03D0043147E /* SpecterDashLogo.png */,
+				90150302226E74AB0043147E /* PeripheralTableViewCell.swift */,
+				901A3BCD225C160A00D56BD2 /* BLECentralViewController.swift */,
+				90150304226E74BD0043147E /* UUIDKey.swift */,
 				9002C471221E36A0009BE30B /* Assets.xcassets */,
 				9002C473221E36A0009BE30B /* LaunchScreen.storyboard */,
 				9002C476221E36A0009BE30B /* Info.plist */,
@@ -214,13 +241,16 @@
 				TargetAttributes = {
 					9002C462221E369E009BE30B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					9002C47A221E36A0009BE30B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 9002C462221E369E009BE30B;
 					};
 					9002C485221E36A0009BE30B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 9002C462221E369E009BE30B;
 					};
 				};
@@ -251,8 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9002C475221E36A0009BE30B /* LaunchScreen.storyboard in Resources */,
+				9015030D226EB03D0043147E /* SpecterDashLogo.png in Resources */,
+				901502FB226E70010043147E /* Setting-White@3x.png in Resources */,
 				9002C472221E36A0009BE30B /* Assets.xcassets in Resources */,
+				90150300226E70010043147E /* Dash-White@3x.png in Resources */,
+				901502F6226E70010043147E /* Input-White@3x.png in Resources */,
 				9002C470221E369E009BE30B /* Main.storyboard in Resources */,
+				901502FF226E70010043147E /* Social-White@3x.png in Resources */,
+				9015030B226EA75A0043147E /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90150305226E74BD0043147E /* UUIDKey.swift in Sources */,
 				900AC55922431C2B00F92AD0 /* InputsViewController.swift in Sources */,
 				907BC538224313A6003EB9C9 /* DashViewController.swift in Sources */,
+				90150303226E74AB0043147E /* PeripheralTableViewCell.swift in Sources */,
 				9002C467221E369E009BE30B /* AppDelegate.swift in Sources */,
 				900AC55D22431C5200F92AD0 /* SettingsViewController.swift in Sources */,
+				901A3BCE225C160A00D56BD2 /* BLECentralViewController.swift in Sources */,
 				900AC55B22431C3F00F92AD0 /* SocialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,7 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -483,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -502,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpecterDash.app/SpecterDash";
 			};
@@ -522,7 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpecterDash.app/SpecterDash";
 			};
@@ -541,7 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SpecterDash;
 			};
@@ -560,7 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BenProtus.SpecterDashUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SpecterDash;
 			};

@@ -12,7 +12,6 @@ class DashViewController: UIViewController {
 
     @IBOutlet weak var mph: UILabel!
     @IBOutlet weak var rpm: UILabel!
-    @IBOutlet weak var tempF: UILabel!
     @IBOutlet weak var volts: UILabel!
     @IBOutlet weak var airFuel: UILabel!
     
